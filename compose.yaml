@@ -1,0 +1,7 @@
+services:
+  trpl:
+    build: .
+    tty: true
+    volumes:
+      - ./:/trpl
+    working_dir: /trpl
